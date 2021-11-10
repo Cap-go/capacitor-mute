@@ -1,3 +1,3 @@
 export interface MutePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  isMuted(): Promise<{ value: boolean }>;
 }

@@ -16,7 +16,7 @@ public class MutePlugin extends Plugin {
         String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
+        ret.put("value", implementation.isMuted());
         call.resolve(ret);
     }
 }

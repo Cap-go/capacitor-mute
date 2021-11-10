@@ -7,12 +7,13 @@ import Capacitor
  */
 @objc(MutePlugin)
 public class MutePlugin: CAPPlugin {
-    private let implementation = Mute()
-
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+    private let implementation = Muted()
+    override public func load() {
+        implementation.initialize()
+    }
+    @objc func isMuted(_ call: CAPPluginCall) {
         call.resolve([
-            "value": implementation.echo(value)
+            "value": implementation.isMuted()
         ])
     }
 }
