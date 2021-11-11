@@ -1,3 +1,11 @@
 export interface MutePlugin {
-  isMuted(): Promise<{ value: boolean }>;
+    /**
+   * check if the device is muted
+   *
+   */
+  isMuted(): Promise<MuteResponse>;
+}
+
+export interface MuteResponse {
+  value: boolean;
 }

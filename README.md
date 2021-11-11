@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`isMuted()`](#ismuted)
+* [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -26,8 +27,20 @@ npx cap sync
 isMuted() => any
 ```
 
+check if the device is muted
+
 **Returns:** <code>any</code>
 
 --------------------
+
+
+### Interfaces
+
+
+#### MuteResponse
+
+| Prop        | Type                 |
+| ----------- | -------------------- |
+| **`value`** | <code>boolean</code> |
 
 </docgen-api>

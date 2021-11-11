@@ -12,8 +12,11 @@ public class MutePlugin: CAPPlugin {
         implementation.initialize()
     }
     @objc func isMuted(_ call: CAPPluginCall) {
-        call.resolve([
-            "value": implementation.isMuted()
-        ])
+        self.implementation.check()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+            call.resolve([
+                "value": self.implementation.isMuted()
+            ])
+        }
     }
 }
