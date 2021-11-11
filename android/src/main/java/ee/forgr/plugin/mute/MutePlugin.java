@@ -12,9 +12,7 @@ public class MutePlugin extends Plugin {
     private Mute implementation = new Mute();
 
     @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
-
+    public void isMuted(PluginCall call) {
         JSObject ret = new JSObject();
         ret.put("value", implementation.isMuted());
         call.resolve(ret);
