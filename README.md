@@ -5,7 +5,7 @@ Detect if the mute switch is enabled/disabled on a device
 ## Install
 
 ```bash
-npm install capacitor-mute
+npm install @capgo/capacitor-mute
 npx cap sync
 ```
 
