@@ -1,5 +1,6 @@
 # capacitor-mute
-
+  <a href="https://capgo.app/"><img src='https://raw.githubusercontent.com/Cap-go/capgo/main/assets/capgo_banner.png' alt='Capgo - Instant updates for capacitor'/></a>
+  
 Detect if the mute switch is enabled/disabled on a device
 
 ## Install
