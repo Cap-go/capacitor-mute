@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/riderx/capacitor-mute/compare/v1.1.3...v1.1.4) (2022-08-21)
+
+
+### Bug Fixes
+
+* readme ([ac7ae66](https://github.com/riderx/capacitor-mute/commit/ac7ae6659d6aca10cfb1527083fcbd9af590f51b))
+
 ### [1.1.3](https://github.com/riderx/capacitor-mute/compare/v1.1.2...v1.1.3) (2022-08-05)
 
 
