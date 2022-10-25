@@ -11,7 +11,8 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapgoCapacitorMute.podspec"
+    "CapgoCapacitorMute.podspec",
+    "Podfile"
   ],
   "author": "Martin donadieu",
   "license": "MIT",
