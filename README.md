@@ -14,6 +14,37 @@ npm install @capgo/capacitor-mute
 npx cap sync
 ```
 
+## Know issue
+
+On IOS with Xcode 14 the lib use under the hood `Mute` is not configured as Apple expect anymore, it's not the only one having the issue as you can see here :
+https://github.com/CocoaPods/CocoaPods/issues/8891
+
+Solution:
+Replace this to your Podfile:
+```ruby
+post_install do |installer|
+  assertDeploymentTarget(installer)
+end
+```
+By
+```ruby
+post_install do |installer|
+  assertDeploymentTarget(installer)
+  installer.pods_project.targets.each do |target|
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+end
+```
+That should solve your issue.
+I did open issue in the original repo to see if they can fix it:
+https://github.com/akramhussein/Mute/issues/16
+If no answer I will add the code directly to capacitor-mute
+
+
 ## API
 
 <docgen-index>
