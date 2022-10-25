@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-mute",
-  "version": "1.0.0",
+  "version": "1.1.5",
   "description": "Detect if the mute switch is enabled/disabled on a device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorMute.podspec"
+    "CapgoCapacitorMute.podspec"
   ],
   "author": "Martin donadieu",
   "license": "MIT",
@@ -60,7 +60,7 @@
     "typescript": "~4.0.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^3.0.0"
+    "@capacitor/core": "^3.0.0 || ^4.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
