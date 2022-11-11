@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.12](https://github.com/riderx/capacitor-mute/compare/v1.1.11...v1.1.12) (2022-11-11)
+
+
+### Bug Fixes
+
+* add husky ([006fd3b](https://github.com/riderx/capacitor-mute/commit/006fd3b7c692ce661b3af2d26caffc411c41437c))
+
 ### [1.1.11](https://github.com/riderx/capacitor-mute/compare/v1.1.10...v1.1.11) (2022-11-11)
 
 
