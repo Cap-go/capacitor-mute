@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.11](https://github.com/riderx/capacitor-mute/compare/v1.1.10...v1.1.11) (2022-11-11)
+
+
+### Bug Fixes
+
+* build for CI + resolve issue with sign mute ([4c740e3](https://github.com/riderx/capacitor-mute/commit/4c740e366d03ff91fbe32beec11f8305f6b2ec74))
+
 ### [1.1.10](https://github.com/riderx/capacitor-mute/compare/v1.1.9...v1.1.10) (2022-11-11)
 
 
