@@ -1,5 +1,4 @@
 import Foundation
-import Mute
 
 @objc public class Muted: NSObject {
     private var _isMuted = false

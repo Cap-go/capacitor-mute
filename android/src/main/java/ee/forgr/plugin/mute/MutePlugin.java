@@ -16,7 +16,7 @@ public class MutePlugin extends Plugin {
         JSObject ret = new JSObject();
         ret.put("value", true);
         AudioManager audio = (AudioManager) this.bridge.getContext().getSystemService(Context.AUDIO_SERVICE);
-        switch ( audio.getRingerMode() ) {
+        switch (audio.getRingerMode()) {
             case AudioManager.RINGER_MODE_NORMAL:
                 ret.put("value", false);
         }
