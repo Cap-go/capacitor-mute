@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.17](https://github.com/riderx/capacitor-mute/compare/v1.1.16...v1.1.17) (2022-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.android.tools.build:gradle to v7.3.1 ([bf24985](https://github.com/riderx/capacitor-mute/commit/bf24985ca86cee12dff2d0728815fb4cd18a739d))
+
 ### [1.1.16](https://github.com/riderx/capacitor-mute/compare/v1.1.15...v1.1.16) (2022-11-22)
 
 ### [1.1.15](https://github.com/riderx/capacitor-mute/compare/v1.1.14...v1.1.15) (2022-11-11)
