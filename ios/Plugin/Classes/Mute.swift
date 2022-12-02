@@ -95,7 +95,7 @@ public class Mute: NSObject {
 
     /// Mute sound url path
     private static var muteSoundUrl: URL {
-        guard let muteSoundUrl = Bundle.main.url(forResource: "mute", withExtension: "aiff") else {
+        guard let muteSoundUrl = bundle.main.url(forResource: "mute", withExtension: "aiff") else {
             fatalError("mute.aiff not found")
         }
         return muteSoundUrl
