@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.24](https://github.com/riderx/capacitor-mute/compare/v1.1.23...v1.1.24) (2022-12-02)
+
+
+### Bug Fixes
+
+* ci script use pnpm ([73143d1](https://github.com/riderx/capacitor-mute/commit/73143d160d17144237a3d997ca7164164ada7987))
+
 ### [1.1.23](https://github.com/riderx/capacitor-mute/compare/v1.1.22...v1.1.23) (2022-12-02)
 
 
