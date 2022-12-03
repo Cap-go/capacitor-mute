@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.27](https://github.com/riderx/capacitor-mute/compare/v1.1.26...v1.1.27) (2022-12-03)
+
+
+### Bug Fixes
+
+* sign issue xcode 14 ([7dd3159](https://github.com/riderx/capacitor-mute/commit/7dd3159e9c3b09efac4bc59af184cfb7b4f26166))
+
 ### [1.1.26](https://github.com/riderx/capacitor-mute/compare/v1.1.25...v1.1.26) (2022-12-02)
 
 
