@@ -146,12 +146,12 @@ public class Mute: NSObject {
     // MARK: Notification Handlers
 
     /// Selector called when app enters background
-    @objc private func didEnterBackground(_ sender: Any) {
+    private func didEnterBackground(_ sender: Any) {
         self.isPaused = true
     }
 
     /// Selector called when app will enter foreground
-    @objc private func willEnterForeground(_ sender: Any) {
+    private func willEnterForeground(_ sender: Any) {
         self.isPaused = false
     }
 
