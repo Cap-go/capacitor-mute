@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.6](https://github.com/riderx/capacitor-mute/compare/v2.0.2...v2.0.6) (2023-05-22)
+
+
+### Bug Fixes
+
+* add java rules ([62e87cf](https://github.com/riderx/capacitor-mute/commit/62e87cffe28c14568ca5078ca06018cdbc8f5464))
+* remove uesles step ([5080d65](https://github.com/riderx/capacitor-mute/commit/5080d6543f1c9b67cdb4bac6efd5cf2dd23e8a2b))
+* use latest nodejs ([fbaba9c](https://github.com/riderx/capacitor-mute/commit/fbaba9c045bf43f664a676d6857e33b5481d6fcc))
+* use new bump ([7f7812a](https://github.com/riderx/capacitor-mute/commit/7f7812a2acef9f2b3fc3b7c8925d0082e46e9842))
+
 ### [2.0.5](https://github.com/riderx/capacitor-mute/compare/v2.0.2...v2.0.5) (2023-05-22)
 
 
