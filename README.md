@@ -60,12 +60,12 @@ If no answer I will add the code directly to capacitor-mute
 ### isMuted()
 
 ```typescript
-isMuted() => Promise<MuteResponse>
+isMuted() => any
 ```
 
 check if the device is muted
 
-**Returns:** <code>Promise&lt;<a href="#muteresponse">MuteResponse</a>&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
