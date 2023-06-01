@@ -33,12 +33,6 @@ jobs:
           git config pull.rebase false
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-      - name: Update Doc
-        run: pnpm docgen
-      - name: Add doc to github
-        run: |
-          git add README.md
-          git commit --amend --no-edit || true
       - name: Create bump and changelog main
         if: github.ref == 'refs/heads/main'
         run: pnpm dlx capacitor-plugin-standard-version@latest
