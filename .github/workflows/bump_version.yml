@@ -30,6 +30,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Git config
         run: |
+          git config pull.rebase false
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
       - name: Update Doc
