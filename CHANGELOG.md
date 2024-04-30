@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/riderx/capacitor-mute/compare/2.0.13...6.0.0) (2024-04-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to capacitor 6
+
+### Features
+
+* upgrade to capacitor 6 ([d5c93ca](https://github.com/riderx/capacitor-mute/commit/d5c93ca16093badf51dde6c00323210f65785416))
+
+
+### Bug Fixes
+
+* pnpm ci ([58cb887](https://github.com/riderx/capacitor-mute/commit/58cb887157325733857de2b26a59119aa05c9412))
+
 ### [2.0.13](https://github.com/riderx/capacitor-mute/compare/2.0.12...2.0.13) (2023-06-01)
 
 ### [2.0.12](https://github.com/riderx/capacitor-mute/compare/2.0.11...2.0.12) (2023-06-01)
