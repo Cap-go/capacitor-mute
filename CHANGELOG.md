@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.3](https://github.com/Cap-go/capacitor-mute/compare/7.1.2...7.1.3) (2025-02-08)
+
+
+### Bug Fixes
+
+* store provenance ([7985cb9](https://github.com/Cap-go/capacitor-mute/commit/7985cb9024a236428432b18a094f104e88ac2904))
+
 ### [7.1.2](https://github.com/riderx/capacitor-mute/compare/7.1.1...7.1.2) (2025-02-08)
 
 
