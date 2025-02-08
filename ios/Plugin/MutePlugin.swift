@@ -7,6 +7,11 @@ import Capacitor
  */
 @objc(MutePlugin)
 public class MutePlugin: CAPPlugin {
+    public let identifier = "MutePlugin"
+    public let jsName = "Mute"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "isMuted", returnType: CAPPluginReturnPromise)
+    ]
     private let implementation = Muted()
     override public func load() {
         implementation.initialize()
