@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/riderx/capacitor-mute/compare/6.0.3...7.1.0) (2025-02-08)
+
+
+### Features
+
+* migrate to capacitor v7 ([d8cd5df](https://github.com/riderx/capacitor-mute/commit/d8cd5dfcfb90f3eac207c0fa9fc9a59241079472))
+
+
+### Bug Fixes
+
+* CI/CD ([ebc2345](https://github.com/riderx/capacitor-mute/commit/ebc2345d3f9c41783775366ca3737fb75c96c00f))
+* use new ios format ([b7817f8](https://github.com/riderx/capacitor-mute/commit/b7817f8f3d42ac17ee6e8febf30e8a74276e628f))
+
 ### [6.0.3](https://github.com/riderx/capacitor-mute/compare/6.0.2...6.0.3) (2024-09-05)
 
 ### [6.0.2](https://github.com/riderx/capacitor-mute/compare/6.0.1...6.0.2) (2024-09-05)
