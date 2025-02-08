@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riderx/capacitor-mute.git"
+    "url": "git+https://github.com/Cap-go/capacitor-mute.git"
   },
   "bugs": {
-    "url": "https://github.com/riderx/capacitor-mute/issues"
+    "url": "https://github.com/Cap-go/capacitor-mute/issues"
   },
   "keywords": [
     "capacitor",
