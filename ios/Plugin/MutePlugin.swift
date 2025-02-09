@@ -6,7 +6,7 @@ import Capacitor
  * here: https://capacitorjs.com/docs/plugins/ios
  */
 @objc(MutePlugin)
-public class MutePlugin: CAPPlugin {
+public class MutePlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "MutePlugin"
     public let jsName = "Mute"
     public let pluginMethods: [CAPPluginMethod] = [
