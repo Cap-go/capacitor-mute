@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.7](https://github.com/Cap-go/capacitor-mute/compare/7.1.6...7.1.7) (2025-02-09)
+
+
+### Bug Fixes
+
+* missing class ([6d3bf2f](https://github.com/Cap-go/capacitor-mute/commit/6d3bf2f54ee34c49da8e00b0e90761b9f6ad08e4))
+
 ### [7.1.6](https://github.com/Cap-go/capacitor-mute/compare/7.1.5...7.1.6) (2025-02-08)
 
 ### [7.1.5](https://github.com/Cap-go/capacitor-mute/compare/7.1.4...7.1.5) (2025-02-08)
