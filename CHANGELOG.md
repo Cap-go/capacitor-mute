@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.46](https://github.com/Cap-go/capacitor-mute/compare/7.1.45...7.1.46) (2025-07-19)
+
 ### [7.1.45](https://github.com/Cap-go/capacitor-mute/compare/7.1.44...7.1.45) (2025-07-08)
 
 ### [7.1.44](https://github.com/Cap-go/capacitor-mute/compare/7.1.43...7.1.44) (2025-07-07)
