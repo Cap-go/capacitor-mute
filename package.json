@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-mute",
-  "version": "7.1.46",
+  "version": "7.1.47",
   "description": "Detect if the mute switch is enabled/disabled on a device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
