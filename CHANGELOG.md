@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.1.51](https://github.com/Cap-go/capacitor-mute/compare/7.1.50...7.1.51) (2025-09-07)
+
 ## [7.1.50](https://github.com/Cap-go/capacitor-mute/compare/7.1.49...7.1.50) (2025-08-11)
 
 ## [7.1.49](https://github.com/Cap-go/capacitor-mute/compare/7.1.48...7.1.49) (2025-08-11)
