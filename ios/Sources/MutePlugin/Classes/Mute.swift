@@ -68,6 +68,9 @@ public class Mute: NSObject {
 
     /// Library bundle
     private static var bundle: Bundle {
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
         if let path = Bundle(for: Mute.self).path(forResource: "Mute", ofType: "bundle"),
            let bundle = Bundle(path: path) {
             return bundle
@@ -91,6 +94,7 @@ public class Mute: NSObject {
         }
 
         fatalError("Mute.bundle not found")
+        #endif
     }
 
     /// Mute sound url path

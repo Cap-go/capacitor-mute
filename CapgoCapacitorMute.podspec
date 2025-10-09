@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.homepage = package['repository']['url']
   s.author = package['author']
   s.source = { :git => package['repository']['url'], :tag => s.version.to_s }
-  s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
+  s.source_files = 'ios/Sources/**/*.{swift,h,m,c,cc,mm,cpp}'
   s.resource_bundles = {
-    'Mute' => ['ios/Plugin/Assets/*.aiff']
+    'Mute' => ['ios/Sources/MutePlugin/Assets/*.aiff']
   }
   s.pod_target_xcconfig = { 'CODE_SIGNING_ALLOWED' => 'NO' }
   s.ios.deployment_target = '14.0'
