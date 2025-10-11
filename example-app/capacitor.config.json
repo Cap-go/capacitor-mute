@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.capgo.capacitor.mute",
-  "appName": "@capgo/capacitor-mute example",
+  "appId": "app.capgo.mute",
+  "appName": "Mute Example",
   "webDir": "dist",
   "plugins": {
     "SplashScreen": {
