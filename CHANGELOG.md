@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.1.64](https://github.com/Cap-go/capacitor-mute/compare/7.1.63...7.1.64) (2025-10-15)
+
+
+### Bug Fixes
+
+* lint config ([0c2fa68](https://github.com/Cap-go/capacitor-mute/commit/0c2fa68f9ebfa30e2a05260c3a0b1d874567ebf9))
+
 ## [7.1.63](https://github.com/Cap-go/capacitor-mute/compare/7.1.62...7.1.63) (2025-10-14)
 
 ## [7.1.62](https://github.com/Cap-go/capacitor-mute/compare/7.1.61...7.1.62) (2025-10-11)
