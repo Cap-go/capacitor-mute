@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.0](https://github.com/Cap-go/capacitor-mute/compare/7.1.67...7.2.0) (2025-10-23)
+
+
+### Features
+
+* add getPluginVersion method to MutePlugin and web implementation; update workflows for changelog generation and Discord notifications ([535d7ba](https://github.com/Cap-go/capacitor-mute/commit/535d7ba8cf45b13c0a1d18e686ac5731176bd4a8))
+
+
+### Bug Fixes
+
+* remove unnecessary content field from Discord release notification ([770603b](https://github.com/Cap-go/capacitor-mute/commit/770603b26488c305892de1afc7d05a03e2be3845))
+
 ## [7.1.67](https://github.com/Cap-go/capacitor-mute/compare/7.1.66...7.1.67) (2025-10-16)
 
 ## [7.1.66](https://github.com/Cap-go/capacitor-mute/compare/7.1.65...7.1.66) (2025-10-15)
