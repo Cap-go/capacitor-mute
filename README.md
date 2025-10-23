@@ -81,4 +81,8 @@ check if the device is muted
 | ----------- | -------------------- |
 | **`value`** | <code>boolean</code> |
 
+| Method               | Signature                                    | Description                             |
+| -------------------- | -------------------------------------------- | --------------------------------------- |
+| **getPluginVersion** | () =&gt; Promise&lt;{ version: string; }&gt; | Get the native Capacitor plugin version |
+
 </docgen-api>
