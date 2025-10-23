@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.1](https://github.com/Cap-go/capacitor-mute/compare/7.2.0...7.2.1) (2025-10-23)
+
+
+### Bug Fixes
+
+* remove footer in discord ([b9cbeef](https://github.com/Cap-go/capacitor-mute/commit/b9cbeef6e8f9bde3aaaa56f6812120fcabea24c2))
+* update Discord release notification username to include repository name ([177554a](https://github.com/Cap-go/capacitor-mute/commit/177554aaf2fad47da68661ac6e440ec4b6dc4a29))
+
 ## [7.2.0](https://github.com/Cap-go/capacitor-mute/compare/7.1.67...7.2.0) (2025-10-23)
 
 
