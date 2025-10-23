@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.3.0](https://github.com/Cap-go/capacitor-mute/compare/7.2.1...7.3.0) (2025-10-23)
+
+
+### Features
+
+* add getPluginVersion method and update documentation ([8cc6c5d](https://github.com/Cap-go/capacitor-mute/commit/8cc6c5dfe54d6b96fbbcb6f51518efdc8ff7c002))
+
 ## [7.2.1](https://github.com/Cap-go/capacitor-mute/compare/7.2.0...7.2.1) (2025-10-23)
 
 
