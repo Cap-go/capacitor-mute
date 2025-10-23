@@ -52,6 +52,7 @@ If no answer I will add the code directly to capacitor-mute
 <docgen-index>
 
 * [`isMuted()`](#ismuted)
+* [`getPluginVersion()`](#getpluginversion)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -59,15 +60,34 @@ If no answer I will add the code directly to capacitor-mute
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
+Capacitor Mute Plugin for detecting device mute status.
+
 ### isMuted()
 
 ```typescript
 isMuted() => Promise<MuteResponse>
 ```
 
-check if the device is muted
+Check if the device mute switch is enabled.
 
 **Returns:** <code>Promise&lt;<a href="#muteresponse">MuteResponse</a>&gt;</code>
+
+**Since:** 1.0.0
+
+--------------------
+
+
+### getPluginVersion()
+
+```typescript
+getPluginVersion() => Promise<{ version: string; }>
+```
+
+Get the native Capacitor plugin version.
+
+**Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
+
+**Since:** 1.0.0
 
 --------------------
 
@@ -77,12 +97,10 @@ check if the device is muted
 
 #### MuteResponse
 
-| Prop        | Type                 |
-| ----------- | -------------------- |
-| **`value`** | <code>boolean</code> |
+Response from mute status check.
 
-| Method               | Signature                                    | Description                             |
-| -------------------- | -------------------------------------------- | --------------------------------------- |
-| **getPluginVersion** | () =&gt; Promise&lt;{ version: string; }&gt; | Get the native Capacitor plugin version |
+| Prop        | Type                 | Description                              |
+| ----------- | -------------------- | ---------------------------------------- |
+| **`value`** | <code>boolean</code> | True if device is muted, false otherwise |
 
 </docgen-api>
