@@ -6,4 +6,8 @@ export class MuteWeb extends WebPlugin implements MutePlugin {
   async isMuted(): Promise<MuteResponse> {
     throw new Error('Method not implemented.');
   }
+
+  async getPluginVersion(): Promise<{ version: string }> {
+    return { version: 'web' };
+  }
 }

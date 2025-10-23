@@ -11,6 +11,8 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "Mute")
 public class MutePlugin extends Plugin {
 
+    private final String PLUGIN_VERSION = "";
+
     @PluginMethod
     public void isMuted(PluginCall call) {
         JSObject ret = new JSObject();
@@ -21,5 +23,16 @@ public class MutePlugin extends Plugin {
                 ret.put("value", false);
         }
         call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void getPluginVersion(final PluginCall call) {
+        try {
+            final JSObject ret = new JSObject();
+            ret.put("version", this.PLUGIN_VERSION);
+            call.resolve(ret);
+        } catch (final Exception e) {
+            call.reject("Could not get plugin version", e);
+        }
     }
 }
