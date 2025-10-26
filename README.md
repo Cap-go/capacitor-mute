@@ -9,6 +9,10 @@
 
 Detect if the mute switch is enabled/disabled on a device
 
+## Documentation
+
+The most complete doc is available here: https://capgo.app/docs/plugins/mute/
+
 ## Install
 
 ```bash
