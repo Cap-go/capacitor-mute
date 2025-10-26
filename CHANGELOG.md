@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.3.3](https://github.com/Cap-go/capacitor-mute/compare/7.3.2...7.3.3) (2025-10-26)
+
+
+### Bug Fixes
+
+* prevent bump for app ([6c5d46a](https://github.com/Cap-go/capacitor-mute/commit/6c5d46a7a76be10cdeb029e71802db87a411eb9d))
+
 ## [7.3.2](https://github.com/Cap-go/capacitor-mute/compare/7.3.1...7.3.2) (2025-10-26)
 
 ## [7.3.1](https://github.com/Cap-go/capacitor-mute/compare/7.3.0...7.3.1) (2025-10-26)
