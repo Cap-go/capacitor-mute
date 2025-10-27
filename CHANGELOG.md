@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.3.4](https://github.com/Cap-go/capacitor-mute/compare/7.3.3...7.3.4) (2025-10-27)
+
+
+### Bug Fixes
+
+* script ([df72e6a](https://github.com/Cap-go/capacitor-mute/commit/df72e6ae4650bc73f0f9de71e0152a022c80c324))
+
 ## [7.3.3](https://github.com/Cap-go/capacitor-mute/compare/7.3.2...7.3.3) (2025-10-26)
 
 
