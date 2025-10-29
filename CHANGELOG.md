@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.3.6](https://github.com/Cap-go/capacitor-mute/compare/7.3.5...7.3.6) (2025-10-29)
+
+
+### Bug Fixes
+
+* CI/CD config ([d8e0469](https://github.com/Cap-go/capacitor-mute/commit/d8e0469482a1c16932a1682932795f094c8f2f8a))
+* model github action ([6538857](https://github.com/Cap-go/capacitor-mute/commit/6538857fd6410234f534494522a592ad7a33887f))
+* update github action ([718c5e9](https://github.com/Cap-go/capacitor-mute/commit/718c5e965fe89b1169ecb2c2995ae8c246856ca4))
+
 ## [7.3.5](https://github.com/Cap-go/capacitor-mute/compare/7.3.4...7.3.5) (2025-10-27)
 
 
