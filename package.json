@@ -28,7 +28,14 @@
     "capacitor",
     "plugin",
     "native",
-    "mute"
+    "mute",
+    "silent",
+    "silence",
+    "ringer",
+    "audio",
+    "sound",
+    "volume",
+    "ios"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
