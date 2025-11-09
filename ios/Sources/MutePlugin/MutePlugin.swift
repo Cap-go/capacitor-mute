@@ -7,7 +7,7 @@ import Capacitor
  */
 @objc(MutePlugin)
 public class MutePlugin: CAPPlugin, CAPBridgedPlugin {
-    private let pluginVersion: String = "7.3.10"
+    private let pluginVersion: String = "7.3.11"
     public let identifier = "MutePlugin"
     public let jsName = "Mute"
     public let pluginMethods: [CAPPluginMethod] = [
