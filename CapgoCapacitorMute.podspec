@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     'Mute' => ['ios/Sources/MutePlugin/Assets/*.aiff']
   }
   s.pod_target_xcconfig = { 'CODE_SIGNING_ALLOWED' => 'NO' }
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '15.0'
   s.dependency 'Capacitor'
   s.frameworks = 'Foundation', 'AudioToolbox'
   s.swift_version = '5.1'
