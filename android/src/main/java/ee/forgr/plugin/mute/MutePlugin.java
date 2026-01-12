@@ -11,7 +11,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "Mute")
 public class MutePlugin extends Plugin {
 
-    private final String pluginVersion = "8.0.6";
+    private final String pluginVersion = "8.0.7";
 
     @PluginMethod
     public void isMuted(PluginCall call) {
