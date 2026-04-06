@@ -53,7 +53,8 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "check:wiring": "node scripts/check-capacitor-plugin-wiring.mjs"
+    "check:wiring": "node scripts/check-capacitor-plugin-wiring.mjs",
+    "capacitor:sync:after": "node scripts/capgo-postsync-hook.mjs"
   },
   "devDependencies": {
     "@capacitor/android": "^8.0.0",
