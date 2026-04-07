@@ -13,7 +13,8 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapgoCapacitorMute.podspec"
+    "CapgoCapacitorMute.podspec",
+    "scripts/capgo-postsync-hook.mjs"
   ],
   "author": "Martin Donadieu <martin@capgo.app>",
   "license": "MPL-2.0",
