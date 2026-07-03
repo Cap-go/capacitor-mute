@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.mute',
-  appName: 'Mute Example',
+  appName: '@capgo/capacitor-mute',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
