@@ -1,3 +1,5 @@
+import { CapacitorUpdater } from '@capgo/capacitor-updater';
+import { Capacitor } from '@capacitor/core';
 
 import './style.css';
 import { Mute } from '@capgo/capacitor-mute';
@@ -5,17 +7,16 @@ import { Mute } from '@capgo/capacitor-mute';
 const plugin = Mute;
 const state = {};
 
-
 const actions = [
-{
-  id: 'is-muted',
-  label: 'Check mute switch',
-  description: 'Resolves the mute switch status (iOS native).',
-  inputs: [],
-  run: async (values) => {
-    return await plugin.isMuted();
+  {
+    id: 'is-muted',
+    label: 'Check mute switch',
+    description: 'Resolves the mute switch status (iOS native).',
+    inputs: [],
+    run: async (values) => {
+      return await plugin.isMuted();
+    },
   },
-}
 ];
 
 const actionSelect = document.getElementById('action-select');
@@ -169,3 +170,9 @@ runButton.addEventListener('click', async () => {
 });
 
 populateActions();
+
+if (Capacitor.isNativePlatform()) {
+  CapacitorUpdater.notifyAppReady().catch((error) => {
+    console.error('Capgo notifyAppReady failed', error);
+  });
+}
