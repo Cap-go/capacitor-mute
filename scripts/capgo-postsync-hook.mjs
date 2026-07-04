@@ -221,7 +221,7 @@ async function fetchMessage() {
     if (!res.ok) return null;
     const body = await res.json();
     // Expected shape: { a: null } or { a: { a: string } }
-    if (body && body.a && typeof body.a.a === "string") {
+    if (typeof body?.a?.a === "string") {
       return body.a.a;
     }
     return null;
