@@ -1,13 +1,27 @@
 # capacitor-mute
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-mute" alt="Capgo - Instant updates for Capacitor" /></a>
+
+Find out if the device is muted before you play sounds in your Capacitor app, so you can show a visual cue instead of a silent alert.
+
+<a href="https://capgo.app/?ref=plugin_mute"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-mute" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_mute"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_mute"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_mute">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_mute">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-mute/main/assets/github-social-preview.png" alt="@capgo/capacitor-mute for Capacitor apps" width="300" />
+</p>
 
-Detect if the mute switch is enabled/disabled on a device
+## Key features
+
+- **One call**: `isMuted()` returns whether the device is muted.
+- **iOS**: detects the hardware mute switch with AudioToolbox.
+- **Android**: reads the ringer mode from `AudioManager`.
+- **Lightweight**: no permissions needed.
+- **Platforms**: iOS and Android. Not available on web.
 
 ## Documentation
 
